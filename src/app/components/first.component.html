@@ -1,0 +1,11 @@
+<div class="cardUser" appEffect>
+  <div>
+    <div>{{item.firstName}} {{item.lastName}}</div>
+    <div>({{dateCheck()}})</div>
+  </div>
+  <div>
+    <div><span class="{{genderCheck()}}">{{item.gender.charAt(0)}}</span>{{item.gender.substring(1,item.gender.length)}}</div>
+    <div><ngbd-tooltip-tplcontent [mrnParam]="item.mrn" [commentParam]="item.comment"></ngbd-tooltip-tplcontent></div>
+    
+  </div>
+</div>
