@@ -1,0 +1,45 @@
+.container {
+  display: inline-block;
+  width: 100vw;
+  max-width: 100%!important;
+  min-height: 400px;
+  position: relative;
+}
+.bootomLine {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.bootomLine > div {
+  width: 310px;
+  margin: 0 auto;
+}
+.item-div {
+  display: block;
+  min-width: 300px;
+  width: 30vw;
+  margin: 1vw;
+  float: left;
+}
+.countEl {
+  float: left;
+  margin-top: 9px;
+  width: 50px;
+  vertical-align: middle;
+  display: inline-block;
+}
+@media screen and (max-width:890px) {
+  .item-div {
+    min-width:350px;
+  } 
+}
+@media screen and (max-width:690px){ 
+  .item-div {
+    min-width:300px;
+  } 
+}
+@media screen and (max-width:390px) {
+  .item-div {
+    min-width:280px;
+  } 
+}
